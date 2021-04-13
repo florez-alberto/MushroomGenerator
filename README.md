@@ -1,5 +1,4 @@
 # MushroomGenerator
-Mushroom Generator
 
 Hello,
 
