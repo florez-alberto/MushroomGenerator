@@ -1,7 +1,7 @@
 from PIL import Image
 import random
 
-def give_attributes(i):
+def set_attributes(i):
     
     id=i
     mush_shape=0
@@ -42,7 +42,7 @@ img_attributes=[0,0,0,0,0,0]
 
 i = 0
 while i < 20:
-  img_attributes=give_attributes(i) #give randomly the mushroom attributes
+  img_attributes=set_attributes(i) #give randomly the mushroom attributes
   create_image(img_attributes) #create the image 
   
   i += 1
